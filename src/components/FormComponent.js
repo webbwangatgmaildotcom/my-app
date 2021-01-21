@@ -88,7 +88,7 @@ function FormComponent(props) {
         <br />
 
         {/* display value for debugging */}
-        <h4>First,Last Name: {msgFN} {msgLN}</h4>
+        <h4>First,Last Name is: {msgFN} {msgLN}</h4>
         <h4>Email: {msgEmail}</h4>
         <h4>textarea: {props.state.comments}</h4>
         <h4>checkbox: {props.state.isFriendly ? "true" : "false"}</h4>
